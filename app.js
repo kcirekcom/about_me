@@ -1,15 +1,24 @@
-var username = prompt('What is your name?');
-alert('Welcome, ' + username + '!');
-console.log('The user\'s name is ' + username);
+'use strict';
+var firstQuestion = prompt('Hello! Welcome to Erick\'s Guessing Game! Let\'s get started with an easy question. Is my name Erick? Yes or No?');
+var firstAnswer = firstQuestion.toUpperCase();
+if (firstQuestion === 'yes' || firstQuestion === 'y') {
+  alert('Good. You better have gotten this answer correct.')
+} else {
+  alert('This answer is incorrect. Wow. How on earth did you get that wrong?')
+}
 
-var motherBorn = prompt('Where was your mother born?');
-alert('Welcome, ' + username + '! ' + 'Your mother was born in ' + motherBorn + '!');
-console.log('The user\'s mother was born in ' + motherBorn);
+var secondQuestion = prompt('Have I ever lived in the Netherlands? Yes or No?');
+var secondAnswer = secondQuestion.toUpperCase();
+if (firstQuestion === 'no' || firstQuestion === 'n') {
+  alert('Wrong! But I did used to live in Germany ;)')
+} else {
+  alert('You got this one right! Great job!')
+}
 
-var favSport = prompt('What is your favorite sport?');
-alert('Welcome, ' + username + '! ' + 'Your mother was born in ' + motherBorn + ' and your favorite sport is ' + favSport + '!');
-console.log('The user\'s favorite sport is ' + favSport);
-
-var hobby = prompt('What do you like to do in your free time?');
-alert('Welcome, ' + username + '! ' + 'Your mother was born in ' + motherBorn + ' and your favorite sport is ' + favSport + '!' + ' I also enjoy ' + hobby + '!');
-console.log('The user enjoys ' + hobby);
+var thirdQuestion = prompt('Do I have 30 baseball caps? Yes or No?');
+var thirdAnswer = thirdQuestion.toUpperCase();
+if (firstQuestion === 'no' || firstQuestion === 'n') {
+  alert('Your answer is wrong. Unfortunately, I only have 22 baseball caps.')
+} else {
+  alert('Right! I only have 22 baseball caps.')
+}
