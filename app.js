@@ -1,5 +1,6 @@
 'use strict';
-
+/* second variable applies .toLowerCase to the first variable
+   second variable called in if else statement */
 var firstQuestion = prompt('Hello! Welcome to Erick\'s Guessing Game! Let\'s get started with an easy question. Is my name Erick?');
 var firstAnswer = firstQuestion.toLowerCase();
 console.log('The user\'s answer is ' + firstAnswer + '.');
