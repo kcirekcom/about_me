@@ -22,14 +22,7 @@ h2 {
 	color: white;
 }
 
-h3 {
-	font-size: 16px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-	color: white;
-}
-
-h4 {
+h3, h4 {
 	font-size: 16px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
@@ -37,14 +30,19 @@ h4 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
   font-family: Georgia, Times, "Times New Roman", serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
 	hyphens: none;
-	 border: 1px solid rgb(0, 89, 82);
+	border: 1px solid rgb(0, 89, 82);
   padding: 20px;
   background-color: white;
+}
+
+img {
+  float: left;
+  padding: 5px;
 }
