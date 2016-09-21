@@ -5,9 +5,9 @@ var firstQuestion = prompt('Hello! Welcome to Erick\'s Guessing Game! Let\'s get
 var firstAnswer = firstQuestion.toLowerCase();
 console.log('The user\'s answer is ' + firstAnswer + '.' + ' The correct answer is yes.');
 if (firstAnswer === 'yes' || firstAnswer === 'y') {
-  alert('Good. You better have gotten this answer correct.')
+  alert('Good. You better have gotten this answer correct.');
 } else {
-  alert('That answer is incorrect. Wow. How on earth did you get that wrong?')
+  alert('That answer is incorrect. Wow. How on earth did you get that wrong?');
 }
 
 var secondQuestion = prompt('Have I ever lived in the Netherlands?');
