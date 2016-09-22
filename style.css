@@ -1,40 +1,47 @@
 html {
-  background-color: rgb(128,128,128);
-  padding-bottom: 35px;
+  background-color: #F0F8FF;
+  padding: 35px;
 }
+
+header {
+  font-size: 48px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+/* font family variations for different browsers */
+h1 {
+  font-size: 32px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: black;
+}
+
+h2 {
+  font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: black;
+}
+
 /* percentages used to be more responsive to different browser sizes */
 body {
 	height: 100%;
 	margin: 0 auto;
-	text-align: left;
-  width: 50%;
-}
-/* font family variations for different browsers */
-h1 {
-	font-size: 48px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 800px;
   text-align: center;
-  color: white;
 }
 
-h2 {
-	font-size: 32px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-	color: white;
-}
-/* h3 and h4 are same styles, put under one selector */
-h3, h4 {
-	font-size: 16px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-	color: white;
-}
-
-article {
+/*article {
   border: 3px solid rgb(0, 89, 82);
   padding: 20px;
   background-color: white;
+}*/
+
+article ul {
+  list-style-type: none;
+  margin-right: 50px;
 }
 
 p {
@@ -48,6 +55,9 @@ p {
 }
 /* image floated within the parent article tag to align properly with p content */
 img {
+  padding-bottom: 15px;
+}
+
+aside {
   float: left;
-  padding-right: 15px;
 }
