@@ -75,9 +75,6 @@ if (wrongGuess) {
   alert('You have no more chances. You answered this question incorrectly.');
   console.log(userName + ' answered this question incorrectly. Current score is ' + score + '/7.');
 }
-// wrongGuess = true;
-// alert('You have no more chances. You answered this question incorrectly.');
-// console.log(userName + ' answered this question incorrectly. Current score is ' + score + '/7.');
 
 var sportsPlayed = ['golf', 'baseball', 'soccer', 'basketball'];
 var numberAttempts = 0;
