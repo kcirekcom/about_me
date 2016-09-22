@@ -91,11 +91,15 @@ while (numberAttempts < 6 && rightGuess) {
     }
   }
 }
+if (rightGuess) {
+  alert('You have no more chances. You answered this question incorrectly.');
+  console.log(userName + ' answered this question incorrectly. Final score is ' + score + '/7.');
+}
 
 var finishedGame = prompt('You have now completed Erick\'s Guessing Game. Thanks for playing! Please type OK for your final score.').toUpperCase();
 if (finishedGame === 'OK') {
   alert('You got ' + score + ' out of 7 questions correct, ' + userName + '.');
-  console.log(userName + ' typed OK and received score.');
+  console.log(userName + ' typed OK and received a final score.');
 } else {
   alert('You did not type OK into the prompt. Please refresh page and play the game again to receive a final score.');
   console.log(userName + ' did not type OK and received no score.');
