@@ -1,6 +1,11 @@
-html {
-  background-color: #F0F8FF;
+body {
+	height: 100%;
+	margin: 0 auto;
+  width: 75%;
+  text-align: left;
   padding: 35px;
+  background-size: auto;
+  background-color: #f6f0e8;
 }
 
 header {
@@ -8,14 +13,16 @@ header {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   color: black;
+  border: 2px solid black;
+  padding-top: 20px;
+  background-color: #f6f6f6;
+  margin-bottom: 20px;
 }
 
-/* font family variations for different browsers */
 h1 {
   font-size: 32px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-	color: black;
+  margin: 0;
+  padding-bottom: 25px;
 }
 
 h2 {
@@ -25,23 +32,46 @@ h2 {
 	color: black;
 }
 
-/* percentages used to be more responsive to different browser sizes */
-body {
-	height: 100%;
-	margin: 0 auto;
-  width: 800px;
+aside {
+  float: left;
+  font-size: 10px;
+  color: black;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  width: 25%;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+aside h2 {
+  font-size: 12px;
   text-align: center;
 }
 
-/*article {
-  border: 3px solid rgb(0, 89, 82);
-  padding: 20px;
-  background-color: white;
-}*/
+aside ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+article {
+  float: left;
+  width: 72%;
+  border: 2px solid black;
+  margin-left: 24px;
+  background-color: #f6f6f6;
+  padding: 0;
+}
 
 article ul {
   list-style-type: none;
-  margin-right: 50px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px;
 }
 
 p {
@@ -51,13 +81,5 @@ p {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
-  margin: 0px;
-}
-/* image floated within the parent article tag to align properly with p content */
-img {
-  padding-bottom: 15px;
-}
-
-aside {
-  float: left;
+  margin: 0;
 }
